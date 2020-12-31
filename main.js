@@ -1,5 +1,6 @@
 import * as c1 from './lib/counter.js';
-  
+import { counter } from './lib/counter.js';
+
 console.log("Info1:",c1.counter); // 1
 c1.increment();
 console.log("Info2:",c1.counter); // 2
