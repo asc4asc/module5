@@ -15,3 +15,5 @@ Idee mehr im html file machen was auch mit html zu tun hat.
   document.body.innerHTML = sayHi('John');
 </script>
 ```
+
+https://javascript.info/modules-intro
