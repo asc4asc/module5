@@ -8,7 +8,11 @@
 <center>    
 Module Javascript / Test me please: <p id="demo"></p>
 </center>
-  
+
+<script type="module">
+  import {sayHi} from './say.js';
+  document.body.innerHTML = sayHi('John');
+</script>  
 <script type="module" src="main.js"></script>  
 
 </body>
